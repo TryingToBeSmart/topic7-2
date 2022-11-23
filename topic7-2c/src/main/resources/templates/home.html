@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultTemplate">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+<div layout:fragment="content" style="text-align: center">
+<a role="button" class="btn btn-primary btn-lg" th:href=@{getusers}>Get Users</a>
+<a role="button" class="btn btn-primary btn-lg" th:href=@{getorders}>Get Orders</a>
+</div>
+</body>
+</html>
